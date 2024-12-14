@@ -22,4 +22,4 @@ python main.py
 ![Question-as-Query](imgs/question_as_query_hq.png)
 
 
-<span style="color: gray;">Due to time constraints, this repository will be further developed....</span>
+
