@@ -1,0 +1,23 @@
+eval point avg class IoU: 0.293411
+eval point accuracy: 0.608123
+eval point avg class acc: 0.480241
+------- IoU --------
+class grab, IoU: 0.395
+class accommodate, IoU: 0.100
+class raise, IoU: 0.002
+class unlock, IoU: 0.253
+class rest, IoU: 0.340
+class take a seat, IoU: 0.570
+class bear, IoU: 0.000
+class wrap, IoU: 0.406
+class pour, IoU: 0.417
+class reposition, IoU: 0.411
+class demonstrate, IoU: 0.311
+class push, IoU: 0.211
+class drag, IoU: 0.000
+class hear, IoU: 0.514
+class clothe, IoU: 0.410
+class thumb, IoU: 0.000
+class slice, IoU: 0.551
+class jab, IoU: 0.083
+class none, IoU: 0.602
