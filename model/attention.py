@@ -134,10 +134,10 @@ if __name__ == '__main__':
     net = GlobalGeometricEnhancer(embed_dim=512, depth=1, num_heads=8).to(center_embedding.device)
     out = net(center_embedding, center_position)
 
-    # for name, parameters in net.named_parameters():  # 打印出每一层的参数的大小
+    # for name, parameters in net.named_parameters():
     #     print(name, ':', parameters.size())
     #
-    # for param_tensor in net.state_dict():  # 字典的遍历默认是遍历 key，所以param_tensor实际上是键值
+    # for param_tensor in net.state_dict(): 
     #     print(param_tensor, '\t', net.state_dict()[param_tensor].size())
 
     print("Total number of paramerters in networks is {} M ".format(sum(x.numel() / 1e6 for x in net.parameters())))
